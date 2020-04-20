@@ -1,0 +1,3 @@
+- what is Azure Data Factory - how can it help to get data out of cloud services?
+- what is azure blob storage and what types of use could it be?  What would a company use it for?
+-  how to connect to an azure storage account us bing the azure storage explorer
