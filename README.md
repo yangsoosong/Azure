@@ -1,3 +1,7 @@
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/187px-Microsoft_Azure_Logo.svg.png "Microsoft Azure"
 This repository contains web contents that will be part of blog posts.
 
 Topics that are in consideration are
