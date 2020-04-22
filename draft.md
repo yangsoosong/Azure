@@ -34,7 +34,6 @@ For our project, it was essential part of our project to standardize and normali
 
 We can use Data Factory to build pipelines from different systems. The interoperability of Data Factory and Power BI enables our BI clients to freely create various data analysis models and consume data upon their needs.
 
-
 ## What is azure blob storage and what types of use could it be?  What would a company use it for?
 
 ## How to connect to an azure storage account us bing the azure storage explorer
