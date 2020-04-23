@@ -34,7 +34,40 @@ For our project, it was essential part of our project to standardize and normali
 
 We can use Data Factory to build pipelines from different systems. The interoperability of Data Factory and Power BI enables our BI clients to freely create various data analysis models and consume data upon their needs.
 
-
 ## What is azure blob storage and what types of use could it be?  What would a company use it for?
+First of all, what is BLOB?
+According to Wikipedia, "A Binary Large OBject (BLOB) is a collection of binary data stored as a single entity in a database management system"
+
+Azure Blob storage is Microsoft's object storage solution for the cloud.
+Blob storage is optimized for storing massive amounts of unstructured data.
+
+Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data.
+
+An Azure storage account contains all of your Azure Storage data objects: blobs, files, queues, tables, and disks. The storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world over HTTP or HTTPS. Data in your Azure storage account is durable and highly available, secure, and massively scalable.
+___
+**Blob**: A file of any type and size.
+___
+**Container**: A group of blobs. There is no limit to the number of blobs in a container. The name of a container must always be lowercase.
+___
+**Storage Account**: Azure offers three storage account types – General Purpose v1 (GPv1), General Purpose v2 (GPv2), and a dedicated blob storage account.
+___
+
+Users or client applications can access objects in Blob storage via HTTP/HTTPS, from anywhere in the world. Objects in Blob storage are accessible via the Azure Storage REST API, Azure PowerShell, Azure CLI, or an Azure Storage client library. Client libraries are available for different languages, including:
+
+* .NET
+* Java
+* Node.js
+* Python
+* Go
+* PHP
+* Ruby
+
+Although Blob Storage is designed to serve different functions, we will mainly focus on two of them:
+* Storing data for backup and restore, disaster recovery, and archiving.
+* Storing data for analysis by an on-premises or Azure-hosted service.
+
+<img src="https://www.dremio.com/img/explained/azure-storage/image_0.png">
+
+Azure Blob Storage thus allows business to lower storage costs, efficiently manage blobs, and deliver large availability via an auto-scaling environment, combined with other Azure tech stacks.
 
 ## How to connect to an azure storage account us bing the azure storage explorer
