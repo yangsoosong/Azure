@@ -76,3 +76,4 @@ Storage explorer enablbes you to manage database without connecting to Azure por
 
 ## Current data flow for our project
 There are 7 different sources we need to collect data from. Most of them have the interface that we can talk directly but there are some of them that we need to use either http call or python databricks to call the data from.
+There was also problem with having discrepancy between reports and http calls since the timezone was different (California / Eastern Time Zone)
