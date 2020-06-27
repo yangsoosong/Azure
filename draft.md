@@ -71,6 +71,13 @@ Although Blob Storage is designed to serve different functions, we will mainly f
 Azure Blob Storage thus allows business to lower storage costs, efficiently manage blobs, and deliver large availability via an auto-scaling environment, combined with other Azure tech stacks.
 
 ## How to connect to an azure storage account us bing the azure storage explorer
+First, you need to install Azure Storage Explorer if you haven't done so.
+Storage explorer enablbes you to manage database without connecting to Azure portal as it inhibits the data inside the explore(blob storage, sql files, etc.)
+
+## Current data flow for our project
+There are 7 different sources we need to collect data from. Most of them have the interface that we can talk directly but there are some of them that we need to use either http call or python databricks to call the data from.
+There was also problem with having discrepancy between reports and http calls since the timezone was different (California / Eastern Time Zone)
+
 <img src="./assets/Visual\ Studio\ Setup\ -\ components\ needed.png
 " alt="Needed configuration for Visual Studio" height="250"/>
 
