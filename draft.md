@@ -71,3 +71,7 @@ Although Blob Storage is designed to serve different functions, we will mainly f
 Azure Blob Storage thus allows business to lower storage costs, efficiently manage blobs, and deliver large availability via an auto-scaling environment, combined with other Azure tech stacks.
 
 ## How to connect to an azure storage account us bing the azure storage explorer
+<img src="./assets/Visual\ Studio\ Setup\ -\ components\ needed.png
+" alt="Needed configuration for Visual Studio" height="250"/>
+
+
