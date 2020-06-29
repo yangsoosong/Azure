@@ -76,6 +76,8 @@ Storage explorer enablbes you to manage database without connecting to Azure por
 
 ## Current data flow for our project
 There are 7 different sources we need to collect data from. Most of them have the interface that we can talk directly but there are some of them that we need to use either http call or python databricks to call the data from.
-There was also problem with having discrepancy between reports and http calls since the timezone was different (California / Eastern Time Zone)
+There was also problem with having discrepancy between reports and http calls since the timezone was different (California / Eastern Time Zone), we fixed this by using derived column in SSIS package to set everything to -7 hours to UTC time zone. 
+Now we are having issues with refunds values that are contained inside the orders from Shopify.
 
 ![Needed configuration for Visual Studio](./assets/Visual Studio Setup - components needed.png)
+
