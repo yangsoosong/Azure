@@ -82,3 +82,4 @@ Now we are having issues with refunds values that are contained inside the order
 ![Needed configuration for Visual Studio](./assets/Visual Studio Setup - components needed.png)
 
 When making http call, we are getting refunds column with just json array value, therefore, we need to parse it using openjson or json value with sql syntax before we retrun refunds values to our L2 table.
+There was an issue that when there are mutliple refunds for one order, our current stored procedure only gets the first refund. I solved it by adding new logic to add refunds when there are more than one.
